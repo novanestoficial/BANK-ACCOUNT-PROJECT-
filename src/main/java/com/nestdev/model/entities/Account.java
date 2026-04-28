@@ -28,6 +28,10 @@ public class Account {
         return balance;
     }
 
+    public void setBalance(Double balance) {
+        this.balance = balance;
+    }
+
     public String getHolder() {
         return holder;
     }
@@ -71,7 +75,6 @@ public class Account {
                 + "Holder: " + holder + "\n"
                 + "Withdraw Limit: " + withdrawalLimit + "\n";
     }
-
 
 
 }
